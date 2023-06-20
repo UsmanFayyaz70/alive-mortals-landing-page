@@ -1,8 +1,10 @@
 .App {
   height: 100%;
+  background-image: url("./assets/sample.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
+  /* background-size: cover; */
   display: grid;
   place-items: top;
   border-radius: 10px;
@@ -12,15 +14,16 @@
   box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #BF40BF, 0 0 40px #BF40BF, 0 0 50px #BF40BF, 0 0 60px #BF40BF, 0 0 70px #BF40BF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+@media (max-width: 1080px) {
+  .App {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
   }
+  
 }
 
 .App-header {

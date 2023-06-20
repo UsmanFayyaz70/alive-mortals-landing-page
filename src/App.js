@@ -13,7 +13,7 @@ function App() {
     }}>
       <div
         className="App"
-        style={{ backgroundImage: `url(${sample})` }}
+        // style={{ backgroundImage: `url(${sample})` }}
       >
 
         <Screen />
